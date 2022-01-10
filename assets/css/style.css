@@ -82,6 +82,7 @@ header {
 }
 
 
+/* Section Banner */
 
 
 #banner {
@@ -150,7 +151,7 @@ header {
     flex: 1;
     display: flex;
     justify-content: end;
-}   
+}
 
 .icone-rolagem {
     display: flex;
@@ -166,18 +167,3 @@ header {
     75% {transform: rotate(40deg);}
     100% {transform: rotate(0deg);}
 }
-
-
-#teste {
-    width: 100vw;
-    height: 100vh;
-}
-
-
-
-
-
-
-
-
-
