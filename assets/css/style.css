@@ -1,0 +1,30 @@
+:root {
+    --bg-primary: #151515;
+    --bg-second: rgba(24, 24, 24,70);
+    --primary: linear-gradient(#44D374, #32F484);
+    --second: #fff;
+    --terciary: #32F484;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    background-color: var(--bg-primary);
+    color: var(--second);
+}
+
+
+
+
