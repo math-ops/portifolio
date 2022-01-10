@@ -25,6 +25,62 @@ body {
     color: var(--second);
 }
 
+header {
+    width: 100vw;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: var(--second);
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out 0s;
+}
+
+.menu ul li a:hover {
+    color: var(--terciary);
+}
+
+.menu-buttom {
+    align-items: center;
+    background: var(--primary);
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+.menu ul li a.menu-buttom:hover {
+    color: var(--bg-primary);
+}
+
+
+.menu i {
+    font-size: 35px;
+    transition: color 0.2s ease-in-out 0s;
+}
+
+.menu i:hover {
+    font-size: 35px;
+    color: var(--terciary);
+}
+
 
 
 
