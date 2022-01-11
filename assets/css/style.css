@@ -233,3 +233,60 @@ header {
     margin-top: 30px;
     font-size: 20px;
 }
+
+#conhecimentos {
+    display: flex;
+    justify-content: center;
+    padding: 200px 10px;
+}
+
+.conhecimentos .titulo {
+    text-align: center;
+}
+
+.conhecimentos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.conhecimentos .card{
+    width: 380px;
+    margin: 20px;
+    background-color: var(--bg-second);
+    flex: 1;
+    border-radius: 10px;
+}
+
+.conhecimentos .card:after {
+    content: ".";
+    position: relative;
+    display: inline-block;
+    background-color: var(--html-color);
+    color: var(--html-color);
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+}
+
+.conhecimentos .card:nth-child(2)::after {
+    background-color: var(--css-color);
+}
+
+.conhecimentos .card:nth-child(3)::after {
+    background-color: var(--js-color);
+}
+
+.card-area {
+    height: 100%;
+    padding: 30px;
+}
+
+.conhecimentos .card h2{
+    margin: 30px 0px;
+    font: 20px;
+}
+
+.conhecimentos .card p{
+    font-size: 16px;
+    line-height: 25px;
+}
