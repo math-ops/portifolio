@@ -4,6 +4,9 @@
     --primary: linear-gradient(#44D374, #32F484);
     --second: #fff;
     --terciary: #32F484;
+    --html-color: #FF6D00;
+    --css-color: #039BE5;
+    --js-color: #FFD600;
 
 }
 
@@ -198,12 +201,12 @@ header {
     flex: 1;
 }
 
-.sobre-mim-direita p:first-child{
+.titulo p:first-child{
     font-size: 20px;
     color: var(--terciary);
 }
 
-.sobre-mim-direita p:first-child:after{
+.titulo p:first-child:after{
     content: "";
     display: inline-block;
     width: 40px;
@@ -218,7 +221,7 @@ header {
     line-height: 30px;
 }
 
-.sobre-mim-direita h1{
+.titulo h1{
     font-size: 45px;
     margin: 20px 0px;
 }
