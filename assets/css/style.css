@@ -256,6 +256,7 @@ header {
     background-color: var(--bg-second);
     flex: 1;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .conhecimentos .card:after {
@@ -274,6 +275,10 @@ header {
 
 .conhecimentos .card:nth-child(3)::after {
     background-color: var(--js-color);
+}
+
+.conhecimentos .card:hover{
+    transform: scale(1.1);
 }
 
 .card-area {
