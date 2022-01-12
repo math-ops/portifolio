@@ -297,5 +297,69 @@ header {
 }
 
 
+/* Section Projetos */
+
+
+#projetos {
+    display: flex;
+    justify-content: center;
+}
+
+#projetos .titulo {
+    text-align: center;
+}
+
+.projetos {
+    margin: 30px;
+}
+
+.projetos-cards {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.projetos-card {
+    flex: 1;
+    background-color: var(--bg-second);
+    margin-top: 100px;
+}
+
+.projetos-card img{
+   width: 100%;
+}
+
+.projeto-card-desc {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    padding: 30px;
+}
+
+.projeto-card-desc-direita {
+    flex: 1;
+}
+
+.projeto-card-desc-direita p{
+    font-size: 15px;
+}
+
+.projeto-card-desc-esquerda {
+    flex: 1;
+}
+
+.projeto-card-desc-categorias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projeto-card-desc-categoria {
+    padding: 10px 20px;
+    border: 2px solid var(--second);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
 
 
