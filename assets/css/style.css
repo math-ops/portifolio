@@ -27,6 +27,7 @@ body {
     overflow-x: hidden;
     background-color: var(--bg-primary);
     color: var(--second);
+    overflow-x: hidden;
 }
 
 header {
@@ -105,7 +106,7 @@ header {
 
 #banner {
     width: 100vw;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 140px);
 }
 
 .banner {
@@ -375,7 +376,14 @@ header {
 
 
 
+
+
 @media (max-width: 1440px) { 
+
+    html {
+        font-size: 8.5px;
+    }
+
     .container {
         padding: 0px 100px;
     }
@@ -395,7 +403,9 @@ header {
         justify-content: end;
     }
 
-    nav ul {
+   
+
+    .menu nav ul {
         flex-direction: column;
         display: none;
         position: absolute;
@@ -403,7 +413,16 @@ header {
         width: 100%;
         background-color: var(--bg-primary);
         margin-bottom: 20px;
+        height: auto;
     }
+    
+    .menu ul li {
+        display: flex;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-left: 20px;
+    }
+
 
     header {
         height: auto;
@@ -419,13 +438,7 @@ header {
         justify-content: space-around;
     }
 
-    .menu ul li {
-        display: flex;
-        padding: 10px;
-        text-transform: uppercase;
 
-        margin-left: 20px;
-    }
 
     .menu nav ul li a{
         font-size: 2rem;
@@ -473,4 +486,15 @@ header {
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 414px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .container {
+        padding: 0px 0px;
+    }
 }
