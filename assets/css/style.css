@@ -7,6 +7,7 @@
     --html-color: #FF6D00;
     --css-color: #039BE5;
     --js-color: #FFD600;
+    --flutter-color: #40C4FF;
 
 }
 
@@ -263,6 +264,7 @@ header {
 .conhecimentos-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 50px;
 }
 
@@ -270,7 +272,6 @@ header {
     width: 380px;
     margin: 20px;
     background-color: var(--bg-second);
-    flex: 1;
     border-radius: 10px;
     transition: all 0.2s ease-in-out 0s;
 }
@@ -293,6 +294,10 @@ header {
     background-color: var(--js-color);
 }
 
+.conhecimentos .card:nth-child(4)::after {
+    background-color: var(--flutter-color);
+}
+
 .conhecimentos .card:hover{
     transform: scale(1.1);
 }
@@ -310,6 +315,21 @@ header {
 .conhecimentos .card p{
     font-size: 1.8rem;
     line-height: 25px;
+}
+
+.conhecimentos .card.desativado{
+    width: 380px;
+    margin: 20px;
+    background-color: var(--bg-primary);
+}
+.conhecimentos .card.desativado:after {
+    content: ".";
+    position: relative;
+    display: inline-block;
+    background-color: var(--bg-primary);
+    color: var(--bg-primary);
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
 }
 
 /* Section Projetos */
@@ -336,7 +356,6 @@ header {
 .projetos-cards {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .projetos-card {
@@ -347,6 +366,7 @@ header {
 
 .projetos-card img{
    width: 100%;
+   border-radius: 20px 20px 0px 0px;
 }
 
 .projeto-card-desc {
@@ -396,6 +416,11 @@ header {
 .projeto-card-desc-categoria.javascript {
     border: 2px solid var(--js-color);    
     background-color: rgba(255, 214, 0,0.25);
+}
+
+.projeto-card-desc-categoria.flutter {
+    border: 2px solid var(--flutter-color);    
+    background-color: rgba(64, 196, 255, 0.25);
 }
 
 
@@ -525,6 +550,10 @@ header {
 
     .projeto-card-desc p{
         margin-top: 30px;
+    }
+
+    .banner-esquerda p{
+        margin: auto;
     }
 
 }
