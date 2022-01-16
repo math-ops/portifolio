@@ -384,8 +384,28 @@ header {
     font-size: 1.9rem;
 }
 
+.projeto-card-desc-direita-icons {
+    font-size: 2.5rem;
+    text-align: end;
+    padding-top: 2rem;
+}
+
+.projeto-card-desc-direita-icons a{
+    margin-right: 2rem;
+    cursor: pointer;
+    color: var(--second);
+}
+
+.projeto-card-desc-direita-icons a:hover{
+    color: var(--terciary);
+}
+
 .projeto-card-desc-esquerda {
     flex: 1;
+}
+
+.projeto-card-desc-esquerda h2{
+    font-size: 3rem;
 }
 
 .projeto-card-desc-categorias {
@@ -554,6 +574,10 @@ header {
 
     .banner-esquerda p{
         margin: auto;
+    }
+
+    .icone-rolagem {
+        display: none;
     }
 
 }
