@@ -7,9 +7,9 @@
     --html-color: #FF6D00;
     --css-color: #039BE5;
     --js-color: #FFD600;
-    --flutter-color: #40C4FF;
+    --react-color: #40C4FF;
     --node-color: #88C043;
-
+    --typescript-color: #007ACC;
 }
 
 * {
@@ -296,7 +296,15 @@ header {
 }
 
 .conhecimentos .card:nth-child(4)::after {
-    background-color: var(--flutter-color);
+    background-color: var(--typescript-color);
+}
+
+.conhecimentos .card:nth-child(5)::after {
+    background-color: var(--node-color);
+}
+
+.conhecimentos .card:nth-child(6)::after {
+    background-color: var(--react-color);
 }
 
 .conhecimentos .card:hover{
