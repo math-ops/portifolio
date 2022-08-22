@@ -10,6 +10,8 @@
     --react-color: #40C4FF;
     --node-color: #88C043;
     --typescript-color: #007ACC;
+    --java-color: #CA5D47;
+    --python-color: #FFDF59;
 }
 
 * {
@@ -455,6 +457,16 @@ header {
 .projeto-card-desc-categoria.node {
     border: 2px solid var(--node-color);    
     background-color: rgba(136, 192, 67, 0.25);
+}
+
+.projeto-card-desc-categoria.react {
+    border: 2px solid var(--react-color);    
+    background-color: rgba(44, 151, 198, 0.455);
+}
+
+.projeto-card-desc-categoria.java {
+    border: 2px solid var(--java-color);    
+    background-color: rgba(165, 75, 57, 0.382);
 }
 
 
