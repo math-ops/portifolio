@@ -12,6 +12,7 @@
     --typescript-color: #007ACC;
     --java-color: #CA5D47;
     --python-color: #FFDF59;
+    --express-color: #dddddd;
 }
 
 * {
@@ -467,6 +468,16 @@ header {
 .projeto-card-desc-categoria.java {
     border: 2px solid var(--java-color);    
     background-color: rgba(165, 75, 57, 0.382);
+}
+
+.projeto-card-desc-categoria.express {
+    border: 2px solid var(--express-color);    
+    background-color: rgba(205, 205, 205, 0.205);
+}
+
+.projeto-card-desc-categoria.typescript {
+    border: 2px solid var(--typescript-color);    
+    background-color: rgba(3, 155, 229,0.25);
 }
 
 
