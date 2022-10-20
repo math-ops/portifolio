@@ -9,6 +9,7 @@
     --js-color: #FFD600;
     --react-color: #40C4FF;
     --node-color: #88C043;
+    --mongodb-color: #72a238;
     --typescript-color: #007ACC;
     --java-color: #CA5D47;
     --python-color: #FFDF59;
@@ -458,6 +459,11 @@ header {
 .projeto-card-desc-categoria.node {
     border: 2px solid var(--node-color);    
     background-color: rgba(136, 192, 67, 0.25);
+}
+
+.projeto-card-desc-categoria.mongodb {
+    border: 2px solid #00ED64;    
+    background-color: rgba(0, 88, 37, 0.67);
 }
 
 .projeto-card-desc-categoria.react {
